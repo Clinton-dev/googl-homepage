@@ -32,15 +32,52 @@
 	border-width: thin;
 	border-color:#F9F9F9;
 	box-shadow: 1px 1px 3px #888;
-	padding-right: 10px;
 	font-size: 15px;
 }
 
 #fsr{
 	float:left;
-
+	padding-right: 10px;
 }
 
 #fsl{
 	float:right;
+	padding-right: 10px;
+}
+
+.btns{
+	height: 36px;
+	margin: auto;
+	width: 100%;
+	padding-top: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.search{
+	height: 45px;
+	width: 100%;
+	font-size: 20px;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+	box-sizing: border-box;
+	box-shadow: 1px 1px 3px #888;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: white;
+	border: solid;
+	border-width: thin;
+	border-color: #F9F9F9;
+
+}
+
+a {
+ text-decoration: none;
+ color:black;
+ outline: 0;
+}
+
+a:hover{
+	text-decoration: underline;
+
 }
