@@ -1,0 +1,106 @@
+body{
+	margin: 0;
+	padding:0;
+}
+
+#logogoogle{
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left:25px;
+	
+}
+
+.navigation{
+	float: right;
+}
+
+.maincontent{
+	position: absolute;
+	visibility: visible;
+	right:500px;
+	top: 150px;
+	z-index: 200;
+	padding: 10px 10px; 
+}
+
+.navigation li{
+ display: inline-block;
+ padding-right: 10px;
+ font-size: 12pt;
+ float:left;
+}
+
+.naviL{
+ float:right;
+ padding-right: 10px;
+ font-size: 12pt;
+ margin: 0;
+ padding: 0;
+ display: inline-block;	
+}
+
+
+#footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	padding-bottom: 15px;
+	border: solid;
+	border-width: thin;
+	border-color:#F9F9F9;
+	box-shadow: 1px 1px 3px #888;
+	font-size: 15px;
+}
+
+#fsr{
+	float:left;
+	padding-right: 10px;
+}
+
+#fsl{
+	float:right;
+	padding-right: 10px;
+}
+
+.btns{
+	height: 36px;
+	margin: auto;
+	width: 100%;
+	padding-top: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.search{
+	height: 45px;
+	width: 100%;
+	font-size: 20px;
+	-webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+	box-sizing: border-box;
+	box-shadow: 1px 1px 3px #888;
+	padding-right: 20px;
+	padding-left: 20px;
+	background: white;
+	border: solid;
+	border-width: thin;
+	border-color: #F9F9F9;
+
+}
+
+a {
+ text-decoration: none;
+ color:black;
+ outline: 0;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+
+.naviR img{
+	height: 23px;
+	width: 23px;
+	margin-top: 0px;
+}
