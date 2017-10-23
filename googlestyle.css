@@ -28,10 +28,11 @@ body{
  padding-right: 10px;
  font-size: 12pt;
  float:left;
+ width:100%;
 }
 
 .naviL{
- float:right;
+ float:left;
  padding-right: 10px;
  font-size: 12pt;
  margin: 0;
