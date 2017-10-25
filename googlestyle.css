@@ -10,9 +10,6 @@ body{
 	
 }
 
-.navigation{
-	float: right;
-}
 
 .maincontent{
 	position: absolute;
@@ -27,16 +24,22 @@ body{
  display: inline-block;
  padding-right: 10px;
  font-size: 12pt;
+ 
+}
+
+.nav-left{
  float:left;
 }
 
-.naviL{
+.nav-right img{
+	height: 23px;
+	width: 23px;
+	margin-top: 0px;
+	float: left;
+}
+
+.nav-right{
  float:right;
- padding-right: 10px;
- font-size: 12pt;
- margin: 0;
- padding: 0;
- display: inline-block;	
 }
 
 
@@ -99,8 +102,3 @@ a:hover{
 
 }
 
-.naviR img{
-	height: 23px;
-	width: 23px;
-	margin-top: 0px;
-}
